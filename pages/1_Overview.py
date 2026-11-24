@@ -5,20 +5,6 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 
-# PAGE CONFIGURATION
-st.set_page_config(
-    page_title="Jabodetabek Drought Monitor",
-    layout="wide"
-)
-
-# HEADER
-st.title("Jabodetabek Drought Monitor")
-st.markdown(
-    "### Meteorological Drought Analysis"
-)
-st.caption(
-    "Standardized Precipitation Index (SPI) | CHIRPS"
-)
 
 st.divider()
 
